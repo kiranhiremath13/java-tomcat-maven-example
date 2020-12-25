@@ -20,4 +20,4 @@ cp /home/kiran_hiremath13/practice1/practice/ant/antrepo/dist/myweb.war /home/ki
 cp /home/kiran_hiremath13/practice1/practice/maven/java-tomcat-maven-example/target/java-tomcat-maven-example-3.0-SNAPSHOT.war /home/kiran_hiremath13/software/apache-tomcat-9.0.40/webapps
 cd /home/kiran_hiremath13/software/apache-tomcat-9.0.40/bin
 ./startup.sh
-~              
+echo "eol"             
