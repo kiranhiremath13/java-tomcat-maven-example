@@ -5,7 +5,8 @@ stage("checkout"){
 stage("package"){
   sh"mvn package"
 }
-stage("download artifact"){
+stage("upload artifact"){
+  sh "mvn deploy"
 }
 stage("rename and deploy"){
 
