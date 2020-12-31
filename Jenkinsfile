@@ -1,5 +1,6 @@
 node(){
 stage("checkout"){
+  sh" ls "
 }
 stage("package"){
 }
